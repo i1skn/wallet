@@ -42,8 +42,9 @@ export class SimplexService extends CicoService {
   constructor() {
     super()
 
-    this.apiKey = networkConfig.simplexApiKey
-    this.baseUrl = networkConfig.simplexUrl
+    this.apiKey =
+      'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwYXJ0bmVyIjoidmFsb3JhcHAiLCJpcCI6WyIxLjIuMy40Il0sInNhbmRib3giOnRydWV9.7cGx60gkefkR2bxDCtm-WBB7HGgs9R3lyVt34gZ2Sqc'
+    this.baseUrl = networkConfig.simplexApiUrl
     this.appUrl = 'https://valoraapp.com'
   }
 
